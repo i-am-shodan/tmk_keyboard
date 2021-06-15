@@ -9,7 +9,9 @@ TARGET_DIR ?= .
 
 # project specific files
 SRC ?=	protocol/ibmpc.c \
-	ibmpc_usb.c
+	ibmpc_usb.c \
+	process_dynamic_macro.c \
+        quantum.c
 
 CONFIG_H ?= config.h
 
@@ -74,6 +76,7 @@ EXTRAKEY_ENABLE ?= yes	# Audio control and System control(+450)
 CONSOLE_ENABLE ?= yes	# Console for debug(+400)
 COMMAND_ENABLE ?= yes    # Commands for debug and configuration
 NKRO_ENABLE ?= yes	# USB Nkey Rollover
+DEBOUNCE_HASU = yes # use default debounce algorithm.
 
 KEYMAP_SECTION_ENABLE ?= yes
 UNIMAP_ENABLE ?= yes

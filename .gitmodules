@@ -4,3 +4,6 @@
 [submodule "tmk_core/protocol/lufa/lufa-abcminiuser"]
 	path = tmk_core/protocol/lufa/lufa-abcminiuser
 	url = https://github.com/abcminiuser/lufa.git
+[submodule "qmk_firmware"]
+	path = qmk_firmware
+	url = https://github.com/qmk/qmk_firmware/

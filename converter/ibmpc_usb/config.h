@@ -41,7 +41,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // G80-2551 terminal keyboard support
 #define G80_2551_SUPPORT
-
+#define DYNAMIC_MACRO_ENABLE
 
 /*
  * Pin and interrupt configuration
